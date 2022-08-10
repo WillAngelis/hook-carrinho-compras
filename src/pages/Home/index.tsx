@@ -68,7 +68,7 @@ const Home = (): JSX.Element => {
               onClick={() => handleAddProduct(product.id)}
             >
               <div data-testid="cart-product-quantity">
-                <MdAddShoppingCart size={16} color="#FFF" />
+                <MdAddShoppingCart size={16} color="#ffffff" />
                 {cartItemsAmount[product.id] || 0}
               </div>
 
